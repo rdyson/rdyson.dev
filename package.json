@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "rdyson.dev",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "rdyson.dev site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Rob Dyson <rdyson@hotmail.com>",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "^17.1.0",
@@ -46,15 +43,14 @@
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/rdyson/rdyson.dev",
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/rdyson/rdyson.dev"
   },
   "scripts": {
     "build": "gatsby build",
@@ -62,6 +58,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "now-build": "npm run build"
   }
 }
