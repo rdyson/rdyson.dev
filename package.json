@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Rob Dyson <rdyson@hotmail.com>",
   "dependencies": {
+    "@mdx-js/mdx": "^0.20.3",
+    "@mdx-js/tag": "^0.20.3",
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
@@ -15,6 +17,7 @@
     "eslint-plugin-react": "^7.12.4",
     "gatsby": "^2.1.31",
     "gatsby-image": "^2.0.33",
+    "gatsby-mdx": "^0.4.3",
     "gatsby-plugin-feed": "^2.0.15",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-manifest": "^2.0.24",
@@ -38,6 +41,7 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
+    "typography-theme-moraga": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {

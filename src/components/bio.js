@@ -14,7 +14,7 @@ import { rhythm } from '../utils/typography'
 function Bio() {
   return (
     <StaticQuery
-      query={bioQuery}
+      // query={bioQuery}
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
@@ -40,10 +40,24 @@ function Bio() {
               />
             }
             <p>
-              Written by <strong>{author}</strong> who lives and works in San Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>You should follow him on Twitter</a>a
+              Hi! I’m Rob Dyson. I’m a web developer based in Miami, FL.{' '}
+              <span role="img" aria-label="smiley">
+                😎
+              </span>
+              <br /> I’ve been co-founder and CTO at a couple of startups.
             </p>
+            <p>
+              I’ve also been described as vegan, a bit English, and rather sarcastic. I’m into personal productivity,{' '}
+              <a
+                href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                effective altruism
+              </a>
+              , lots of reading, and coffee. In a past life I was a music producer and engineer.
+            </p>
+            <p>You can reach me at rob at rdyson.dev, and rdyson elsewhere.</p>
           </div>
         )
       }}
@@ -51,24 +65,24 @@ function Bio() {
   )
 }
 
-const bioQuery = graphql`
-  query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        author
-        social {
-          twitter
-        }
-      }
-    }
-  }
-`
+// const bioQuery = graphql`
+//   query BioQuery {
+//     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+//       childImageSharp {
+//         fixed(width: 50, height: 50) {
+//           ...GatsbyImageSharpFixed
+//         }
+//       }
+//     }
+//     site {
+//       siteMetadata {
+//         author
+//         social {
+//           twitter
+//         }
+//       }
+//     }
+//   }
+// `
 
 export default Bio
