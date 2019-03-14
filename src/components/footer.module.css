@@ -1,11 +1,12 @@
-ul {
+footer ul {
   margin: 0;
 }
-ul > li {
+
+footer ul > li {
   display: inline-block;
   margin-right: 15px;
 }
 
-img {
+footer img {
   width: 20px;
 }
