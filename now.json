@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "rdyson.dev",
+  "alias": ["rdyson.dev"],
   "builds": [
     {
       "src": "package.json",

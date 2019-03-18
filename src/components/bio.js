@@ -9,9 +9,9 @@ const intro = `
 Hi! I’m Rob Dyson. I’m a web developer based in Miami, FL. 😎
 I’ve been co-founder and CTO at a couple of startups.
 
-I’ve also been described as vegan, a bit English, and rather sarcastic. I’m into personal productivity, [effective altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism), lots of reading, and coffee. In a past life I was a music producer and engineer.
+I’ve also been described as vegan, a bit English, and rather sarcastic. I’m into personal productivity, [effective altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism), [lots of reading](https://www.goodreads.com/user/show/4351029-rob), and [coffee](http://www.coffeegeek.com/guides/aeropresscoldbrew). In a past life I was a music producer and engineer.
 
-Lately I’ve been using React, Gatsby, GraphQL, and ES6. I’m also familiar with Ruby on Rails and PHP.
+Lately I’ve been using [React](https://reactjs.org), [Gatsby](https://www.gatsbyjs.org), and [GraphQL](https://graphql.org). I’m also familiar with Ruby on Rails and shell scripting.
 
 You can reach me at rob at rdyson.dev, and rdyson elsewhere.
 `
@@ -29,7 +29,7 @@ const projects = `
 
 * [hair.dog](https://github.com/rdyson/hair.dog) — React app built with [Next.js](https://nextjs.org)
 * [Bulk macOS Messages](https://github.com/rdyson/bulk-macos-messages) — AppleScript and bash scripts to bulk send Messages/SMS on macOS
-* [Restaurants Nearby](https://github.com/rdyson/restaurants-nearby) — React app that finds specific (in my case, vegan) nearby restaurants using geolocation and a Firebase database
+* [Restaurants Nearby](https://github.com/rdyson/restaurants-nearby) — React app that finds specific (in my case, vegan) nearby restaurants and reviews using geolocation and a Firebase database
 * [Quick Text Image](https://github.com/rdyson/quick-text-image) — Node script that adds text to an image background for sharing (e.g. Instagram) using [Unsplash](https://unsplash.com) and [Cloudinary](https://cloudinary.com)
 `
 
