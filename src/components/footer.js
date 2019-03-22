@@ -19,11 +19,11 @@ export default ({ scrollTop, title }) => (
             <img src={twitter} alt="Twitter" />
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="//dribbble.com/rdyson" title="Dribbble" target="_blank" rel="noopener noreferrer">
             <img src={dribbble} alt="Dribbble" />
           </a>
-        </li>
+        </li> */}
         <li>
           <a href="//linkedin.com/in/rdyson" title="LinkedIn" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" />

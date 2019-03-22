@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown'
 import { rhythm } from '../utils/typography'
 
 const intro = `
-Hi! I’m Rob Dyson. I’m a web developer based in Miami, FL. 😎
+Hi! I’m Rob Dyson. I’m a full stack web developer based in Miami, FL. 😎
 I’ve been co-founder and CTO at a couple of startups.
 
 I’ve also been described as vegan, a bit English, and rather sarcastic. I’m into personal productivity, [effective altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism), [lots of reading](https://www.goodreads.com/user/show/4351029-rob), and [coffee](http://www.coffeegeek.com/guides/aeropresscoldbrew). In a past life I was a music producer and engineer.
@@ -22,6 +22,8 @@ const experience = `
 * Co-founder and CTO at Skillied — marketplace for in-person classes
 * Co-founder and CTO at [Willing](https://willing.com) — online tool for creating estate planning documents
 * Y Combinator, Summer 2015 with Willing
+
+[Here’s my résumé](/RobertDysonResume.pdf).
 `
 
 const projects = `
