@@ -11,7 +11,7 @@ I’ve been co-founder and CTO at a couple of startups.
 
 I’ve also been described as vegan, a bit English, and rather sarcastic. I’m into personal productivity, [effective altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism), [lots of reading](https://www.goodreads.com/user/show/4351029-rob), and [coffee](http://www.coffeegeek.com/guides/aeropresscoldbrew). In a past life I was a music producer and engineer.
 
-Lately I’ve been using [React](https://reactjs.org), [Gatsby](https://www.gatsbyjs.org), and [GraphQL](https://graphql.org). I’m also familiar with Ruby on Rails and shell scripting.
+Lately I’ve been using [React](https://reactjs.org), [Gatsby](https://www.gatsbyjs.org), and [GraphQL](https://graphql.org). I’m also familiar with ES6, Node, Ruby on Rails, and shell scripting.
 
 You can reach me at rob at rdyson.dev, and rdyson elsewhere.
 `
