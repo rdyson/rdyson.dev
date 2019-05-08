@@ -1,6 +1,5 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Image from 'gatsby-image'
 import ReactMarkdown from 'react-markdown'
 
 import { rhythm } from '../utils/typography'
@@ -12,6 +11,8 @@ I’ve been co-founder and CTO at a couple of startups.
 I’ve also been described as vegan, a bit English, and rather sarcastic. I’m into personal productivity, [effective altruism](https://www.effectivealtruism.org/articles/introduction-to-effective-altruism), [lots of reading](https://www.goodreads.com/user/show/4351029-rob), and [coffee](http://www.coffeegeek.com/guides/aeropresscoldbrew). In a past life I was a music producer and engineer.
 
 Lately I’ve been using [React](https://reactjs.org), [Gatsby](https://www.gatsbyjs.org), and [GraphQL](https://graphql.org). I’m also familiar with ES6, Node, Ruby on Rails, and shell scripting.
+
+I have a [notes repository](https://notes.rdyson.dev) that I use primarily as a personal wiki, but you may find something useful there.
 
 You can reach me at rob at rdyson.dev, and rdyson elsewhere.
 `
